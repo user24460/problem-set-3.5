@@ -1,6 +1,11 @@
 body {
-  background: rgb(180,58,58);
-  background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background: linear-gradient(360deg, #4F84C4, #00A591);
+}
+
+p {
+  font-style: "Times New Roman";
+  font-size: 20px;
+  color: white
 }
 
 img {
