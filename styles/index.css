@@ -2,6 +2,22 @@ body {
   background: linear-gradient(360deg, #4F84C4, #00A591);
 }
 
+.title {
+  color: Aquamarine;
+  font-family: Impact;
+  text-align: center;
+  font-size: 40px
+}
+
+.author {
+  color: deepskyblue;
+  font-family: Impact;
+  text-align: center;
+  font-size: 25px;
+}
+
+.author {}
+
 p {
   font-style: "Times New Roman";
   font-size: 20px;
