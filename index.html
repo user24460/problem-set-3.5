@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
 <html>
+
   <head>
     <link rel="stylesheet" type="text/css" href="styles/index.css">
     <title>Social Media</title>
   </head>
 
-
-  <navbar>
+  <header class=navbar>
     <ul id="navbar">
       <li id="title_navbar">Navigation Bar</li>
       <li><a href="../problem-set-3.5/index.html" target="_self">Introduction</a></li>
@@ -15,7 +15,7 @@
       <li><a href="../problem-set-3.5/snapchat.html" target="_self">Snapchat</a></li>
       <li><a href="../problem-set-3.5/VSCO.html" target="_self">VSCO</a></li>
     </ul>
-  </navbar>
+  </header>
 
   <hr/>
 
@@ -41,10 +41,8 @@
   <hr/>
 
   <body>
-    <h3>
-      <a class="smtitles" style="color: slateblue">Instagram</a>
-    </h3>
-    <img class="logos" src="../problem-set-3/Images/instagram-logo.png"
+    <h3 class="smtitles" style="color: slateblue">Instagram</h3>
+    <img src="../problem-set-3/Images/instagram-logo.png"
     title="Instagram Logo"/>
     <p style="color: #483d8b;">Instagram is a social media platform that allows users to
     post their images or videos on a customizable personal page. Each user
@@ -54,13 +52,9 @@
     pages that may interest the user based on their activity.</p>
   </body>
 
-  <hr/>
-
   <body>
-    <h3>
-      <a class="smtitles" style="color: yellow">Snapchat</a>
-    </h3>
-    <img class="logos" style="border: 0px;" src="../problem-set-3/Images/snapchat-logo.png"
+    <h3 class="smtitles" style="color: yellow">Snapchat</h3>
+    <img id="sclogo" src="../problem-set-3/Images/snapchat-logo.png"
     title="Snapchat Logo"/>
     <p style="color: lemonchiffon;">Snapchat is a social media platform that
     allows users to take and edit
@@ -71,13 +65,9 @@
     up to date with their stories.</p>
   </body>
 
-  <hr/>
-
   <body>
-    <h3>
-      <a class="smtitles">VSCO</a>
-    </h3>
-    <img class="logos" src="../problem-set-3/Images/vsco-logo.png"/
+    <h3 class="smtitles">VSCO</h3>
+    <img src="../problem-set-3/Images/vsco-logo.png"/
     title="VSCO Logo">
     <p>VSCO is a social media platform that has similar features to Instagram. It
     gives users the ability to share images or videos in a customizable personal
@@ -89,7 +79,7 @@
 
   <hr/>
 
-  <table border="1">
+  <table class="center">
     <thead>
       <tr>
         <th>Social Media Platform </th>
@@ -111,8 +101,8 @@
       </tr>
     </tbody>
     <tfoot>
-    	<td><i>Best Ranked</i></td>
-      <td>Instagram</td>
+    	<td class="ranking">Best Ranked</td>
+      <td class="ranking">Instagram</td>
     </tfoot>
   </table>
 

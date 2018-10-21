@@ -2,18 +2,24 @@ body {
   background: linear-gradient(360deg, #4F84C4, #00A591);
 }
 
+p[style] {
+  text-align: center;
+  font-family: times;
+  font-size: 22px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 #navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 li a {
   display: block;
   text-align: center;
   font-family: impact;
 }
-
 #title_navbar {
   text-align: center;
   font-family: impact;
@@ -21,7 +27,7 @@ li a {
 }
 
 * {
-  font-family: times;
+  font-family: arial;
   font-size: 20px;
   color: white;
 }
@@ -43,18 +49,64 @@ li a {
   font-size: 25px;
 }
 
-.smtitles {
+h3.smtitles {
   font-family: Impact;
   align: center;
   font-size: 30px;
-  position: relative;
+  display: block;
+  text-align: center;
 }
 
-.logos {
-  height: 60px;
-  width: 60px;
+img[title] {
+  height: 80px;
+  width: 80px;
   border: 2px solid white;
-  border-radius: 15px;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sclogo {
+  height: 90px;
+  width: 90px;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid darkgrey;
+}
+
+table[class] {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+table, th, td {
+  border: 1px solid darkgrey;
+}
+
+th {
+  background-color: gray;
+  font-family: impact;
+}
+
+td {
+  background-color: darkgrey;
+}
+
+tr td {
+  text-align: center;
+  font-family: Times;
+}
+
+.ranking {
+  color: midnightblue;
 }
 
 #footer {
@@ -72,8 +124,4 @@ a:visited {
 
 a:hover {
     color: limegreen;
-}
-
-a:active {
-    color: yellowgreen;
 }
