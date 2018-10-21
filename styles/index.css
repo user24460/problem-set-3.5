@@ -3,7 +3,21 @@ body {
 }
 
 #navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+li a {
+  display: block;
+  text-align: center;
+  font-family: impact;
+}
+
+#title_navbar {
+  text-align: center;
+  font-family: impact;
+  display: block;
 }
 
 * {
@@ -41,4 +55,25 @@ body {
   width: 60px;
   border: 2px solid white;
   border-radius: 15px;
+}
+
+#footer {
+  text-align: center;
+  display: block;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    color: limegreen;
+}
+
+a:active {
+    color: yellowgreen;
 }
