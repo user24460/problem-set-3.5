@@ -1,3 +1,122 @@
 body {
-  background-color: aliceblue;
+  background: linear-gradient(360deg, gray, gainsboro);
+}
+
+p[style]{
+  font-family: times;
+  font-size: 22px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  display: block;
+  text-align: center;
+  font-family: impact;
+}
+#title_navbar {
+  text-align: center;
+  font-family: impact;
+  display: block;
+  color: black;
+}
+
+#VSCOlogo {
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+  border-radius: 22px;  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#VSCOhomepage {
+  font-style: italic;
+  font-family: times;
+}
+
+* {
+  font-family: times;
+  font-size: 20px;
+  color: black;
+}
+
+.features {
+  font-family: times;
+  font-size: 22px;
+  color: black;
+}
+
+li i {
+  color: black;
+}
+
+.title {
+  color: dimgray;
+  font-family: Impact;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.author {
+  color: gray;
+  font-family: Impact;
+  text-align: center;
+  font-size: 25px;
+}
+
+h4.ftitles {
+  font-family: Impact;
+  align: center;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  color: dimgray;
+}
+
+img[title] {
+  height: 550px;
+  width: 350px;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3[style] {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  color: dimgray;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  display: block;
+}
+
+a:link {
+    color: greenyellow;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    color: limegreen;
 }
